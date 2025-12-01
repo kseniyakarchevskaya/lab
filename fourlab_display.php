@@ -1,7 +1,6 @@
 <?php
 $ds = $_POST["datestring"];
 
-// Шаблон формата Дата-Месяц-Год Час:Мин:Сек
 $pattern = "/^(\d{2})-(\d{2})-(\d{4}) (\d{2}):(\d{2}):(\d{2})$/";
 
 if (preg_match($pattern, $ds, $m)) { //проверяем подходит ли
@@ -13,7 +12,7 @@ if (preg_match($pattern, $ds, $m)) { //проверяем подходит ли
     $min   = $m[5];
     $sec   = $m[6];
 
-    // Проверка корректности даты
+ 
     if (checkdate($month, $day, $year) &&
         $hour >= 0 && $hour < 24 &&
         $min  >= 0 && $min  < 60 &&
