@@ -11,12 +11,8 @@
 <body>
 <h3>Выберите вариант задания</h3>
 <a href="polar.php">Лабораторная работа №1</a><br>
-<a href="polar2.php">Лабораторная работа №1 2.2</a><br>
-<a href="polar3.php">Лабораторная работа №1 3.2</a><br>
-<a href="massiv2.php">Лабораторная работа №2</a><br>
-<a href="dmas1.php">Лабораторная работа №2 4.2</a><br>
-<a href="third.php">Лабораторная работа №3</a><br>
-<a href="third1.php">Лабораторная работа №3 3.1</a><br>
+<a href="polar2.php">Лабораторная работа №2</a><br>
+<a href="polar3.php">Лабораторная работа №3</a><br>
 <a href="fourlab.php">Лабораторная работа №4</a><br>
 <a href="login.php">Лабораторная работа №4.1</a><br>
 <a href="five.php">Лабораторная работа №5</a><br>
